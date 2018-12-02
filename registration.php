@@ -27,7 +27,7 @@ $username = $_POST['username'];
 $password = $_POST['password'];
 $confirmationpass = $_POST['confirmmpass'];
 
-/* 	//	// validation of form// // // // */
+/* // validation of form// // // // */
 
 
 if($password != $confirmationpass){
