@@ -23,7 +23,6 @@ $sql = "SELECT * FROM user WHERE username='$username' AND password='$password'";
  $count = mysqli_num_rows($result);
 
 
-
 if($count == 1){
 	$_SESSION['username'] = $username;
 	session_register('username');
