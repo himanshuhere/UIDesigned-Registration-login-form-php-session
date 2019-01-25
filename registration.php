@@ -36,6 +36,7 @@ if($password != $confirmationpass){
  else if{$name=='' or $surname='' or $username='' or $password=''){
 	echo 'Please input some data.'
 } 
+
 else
 {
 	/*  `//	//	 Injecting data from html form to database 	//	//*/
