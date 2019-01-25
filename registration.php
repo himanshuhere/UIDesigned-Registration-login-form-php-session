@@ -31,6 +31,7 @@ $confirmationpass = $_POST['confirmmpass'];
 /* // validation of form// // // // */
 
 
+
 if($password != $confirmationpass){
 	echo 'Passwords doesnt match!'
 }
