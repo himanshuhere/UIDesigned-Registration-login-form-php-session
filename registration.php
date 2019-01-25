@@ -6,6 +6,7 @@
 $DB_host = 'localhost';
 $DB_user = 'root';
 $DB_password = '';
+
 $DB_name = 'mydb3';
 
 $connection = mysqli_connect($DB_host, $DB_user, $DB_password); /*  /  connection to database //  */
