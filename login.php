@@ -5,8 +5,6 @@ if(isset($_SESSION['username']))   // Check wether user already logged in or not
  {
     header("Location:userhome.php"); 
  }
-
-
 $DB_host = 'localhost';
 $DB_user = 'root';
 $DB_password = '';
