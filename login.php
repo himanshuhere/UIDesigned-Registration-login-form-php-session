@@ -13,7 +13,6 @@ $DB_name = 'user';
 
 $username = $_POST['username'];
 $password = $_POST['password'];
-
 $connection = mysqli_connect($DB_host, $DB_user, $DB_password);	//	connection establishmnt
 
 $db_select = mysqli_select_db($DB_name, $connection);	// select db
@@ -32,4 +31,5 @@ if($count == 1){
 else{
 	echo "invalid UserName or Password- login failed!";
 }
+
 ?>
